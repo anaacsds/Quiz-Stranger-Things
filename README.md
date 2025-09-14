@@ -22,4 +22,4 @@ Sugestões de perguntas ou melhorias são bem-vindas! Abra uma issue ou envie um
 
 ---
 
-Feito por Ana Clara para fins ...
+Feito por Ana Clara para praticar e aprimorar meus conhecimentos em desenvolvimento web, também tem como finalidade atuar como um portfólio online, reunindo e apresentando meus trabalhos e competências profissionais.
