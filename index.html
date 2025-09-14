@@ -10,7 +10,8 @@
         <header>
                 <h1>Quiz interativo para fãs de Stranger Things</h1>
                 <p>Teste seus conhecimentos da série Stranger Things e veja qual pontuação você consegue fazer!</p>
-        </header>
+        <img src="st.png" alt="Logo da série Stranger Things"> 
+            </header>
 
         <main>     
             <!--Essa seção é para a introdução-->
@@ -44,7 +45,7 @@
             </section>
             <!--Pergunta 3-->
             <section>
-                <h2>Pergunta 3: Escreva o número da irmã da Onze que aparece na 2ª temporada</h2>
+                <h2>Pergunta 3: Escreva o número da irmã da Onze que aparece na 2ª temporada:</h2>
                 <form>
                     <input type="password" name="pergunta3" id="p3" placeholder="Digite os números">
                 </form>
@@ -59,7 +60,8 @@
 
             </section>
             <!--Pergunta 5-->
-            <h2>Qual dessas pessoas o devorador de mentes não atacou?
+            <section>
+            <h2>Pergunta 5:Qual dessas pessoas o devorador de mentes não atacou?
             </h2>
             <form>
                 <input type="checkbox" name="pergunta5" id="p5a" value="Will">
@@ -74,10 +76,94 @@
                 <label for="p5a">Doris Driscoll</label> <br>
                 <input type="checkbox" name="pergunta5" id="p5a" value="Mike">
                 <label for="p5a">Mike</label>
-            </form>
+                </form>
+            </section>
+                <!--Pergunta 6-->
+                <section>
+                    <h2>Pergunta 6: Faça upload da logo de Stranger Things</h2>
+                    <form>
+                        <input type="file" name="pergunta6" id="p6">
+                    </form>                  
+                </section>
+                <!--Pergunta 7-->
+                <section>
+                    <h2>Pergunta 7: Selecione qual o nome o Dustin deu para o seu bebê demogorgon na 2ª temporada:</h2>
+                    <form>
+                        <select name="pergunta7" id="p7">
+                            <option value=" "> </option>
+                            <option value="D'Artagnan">D'Artagnan</option>
+                            <option value="Demodog">Demodog</option>
+                            <option value="DartDog">DartDog</option>
+                            <option value="DemoDart">DemoDart</option>
+                        </select>
+                    </form>
+                </section>
+
+                  <!--Pergunta 8: imagem-->
+            <section>
+                <h2>Pergunta 8: Em qual temporada a Onze e a Max viraram amigas?</h2>
+                <figure>
+                    <img src="onzemax.jpg" alt="Imagem da Onze e da Max rindo"><br>
+                    <figcaption>Figura: Onze e Max</figcaption>
+                </figure>
+                <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+            </section>
+
+                    <!--Tabela de Pontuação-->
+                 <section>
+                <h2>Tabela de Pontuação</h2>
+                <table border="3"> <!--Identifica a borda da tabela-->
+                    <thead> <!--Identifica o abeçalho da tabela-->
+                        <tr> <!--Tag de linha-->
+                            <th>Pontuação</th> <!--Itens da linha-->
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody> <!--Identifica o corpo da tabela-->
+                        <tr>
+                            <td>0-2</td> </td> <!--Table data-->
+                            <td>Veja a série novamente. </td>
+                        </tr>
+                        <tr>
+                            <td>3-4</td>
+                            <td>Não desista! </td>
+                        </tr>
+                        <tr>
+                            <td>5-7</td>
+                            <td>Bom! </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Perfeito!</td>
+                         </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr> <!--Rodapé da tabela-->
+                            <td colspan="2">Boa sorte na próxima! </td> <!--Colspan: P/ocupar duas colunas da linha-->
+                        </tr>
+                    </tfoot>
+                    </table>
+                </section>
+
+                 <!--Lista de Respostas-->
+                 <section>
+                <h2>Respostas do Quiz</h2>
+            <a href="respostas.html" target="_blank">Clique aqui para ver suas respostas</a>
+                 </section>
+
+            <!--Formulário de Feedback redirecionando para feedback.html-->
+             <section>
+                <h2>Nos dê o seu feedback</h2>
+                <a href="feedback.html" target="_blank">Clique aqui para deixar seu feedback</a>
+             </section>
+
         </main>
 
-        <footer></footer>
+        <footer>
+            <p>>&copy Quiz de Stranger Things</p> <!-- O copy faz aquele "c" de copiryghts e o "&" deixa o ">" aparecer sem prejudicar o codigo-->
+            <p>Desenvolvido por Ana Clara</p>
+            <p>Para conhecer mais sobre mim <a href="sobremim.html" target="_blank">clique aqui</a></p> <!-- Href é qual endereço a pessoa vai ao clicar, e o target serve para quando a pessoa clicar, ela ir para outra pagina e nao sair da que esta no momento-->
+        </footer>
 
     </body>
 
