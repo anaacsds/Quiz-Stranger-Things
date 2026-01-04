@@ -9,3 +9,7 @@ h1 {
     font-family: Benguiat Bold Condensed;
     color: #FFA586;
 }
+
+header a {
+    color:white;
+}
