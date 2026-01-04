@@ -1,0 +1,18 @@
+* {
+    background-image: url('../public/img/construcao.png');
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header a {
+    color:white;
+}
+
+.perfil {
+    text-align: end; /*alinhar para canto da direita*/
+}
+
+h1{
+    color:white;
+}
