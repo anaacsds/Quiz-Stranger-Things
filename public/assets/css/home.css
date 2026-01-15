@@ -1,4 +1,9 @@
+* {
+    background-image: url('../img/st-fullhd.png');
+}
+
 h1 {
     font-family: Benguiat Bold Condensed;
     color: #FFA586;
+    
 }
